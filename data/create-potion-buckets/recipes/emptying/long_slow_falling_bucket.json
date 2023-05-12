@@ -1,0 +1,24 @@
+{
+    "type": "create:emptying",
+    "ingredients": [
+        {
+            "item": "tconstruct:potion_bucket",
+            "nbt": {
+                "Potion": "minecraft:long_slow_falling"
+            }
+        }
+    ],
+    "results": [
+        {
+            "item": "minecraft:bucket"
+        },
+        {
+            "fluid": "create:potion",
+            "nbt": {
+                "Bottle": "REGULAR",
+                "Potion": "minecraft:long_slow_falling"
+            },
+            "amount": 1000
+        }
+    ]
+}

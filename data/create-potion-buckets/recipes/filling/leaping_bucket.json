@@ -1,0 +1,24 @@
+{
+    "type": "create:filling",
+    "ingredients": [
+        {
+            "item": "minecraft:bucket"
+        },
+        {
+            "fluid": "create:potion",
+            "nbt": {
+                "Bottle": "REGULAR",
+                "Potion": "minecraft:leaping"
+            },
+            "amount": 1000
+        }
+    ],
+    "results": [
+        {
+            "item": "tconstruct:potion_bucket",
+            "nbt": {
+                "Potion": "minecraft:leaping"
+            }
+        }
+    ]
+}
